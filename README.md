@@ -140,7 +140,7 @@ if __name__ == "__main__":
 
     # Main database save logic
     results = ["sample_data"]
-    save_to_database(results)
+    save_to_database(results)```
 
 Implementation Details
 
