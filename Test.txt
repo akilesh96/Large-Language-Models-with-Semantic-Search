@@ -1,0 +1,15 @@
+Closing this JIRA as per the latest update from the Person.
+	•	Initially, I created an RFC on the page and proposed three solutions.
+	•	Solution 1: Optimizing the QGTable using a Python generator—this did not work.
+	•	Solution 2: I added retry logic for chunking the QGTable, saving it as a CSV, and using the bcp command to send it to the DB. Additionally, I suggested and implemented multiprocessing to improve performance and presented this in the QGTex Developer Forum call. However, the Person advised that retry logic was unnecessary due to potential duplication, so we removed it.
+	•	Solution 3: To handle duplication, I implemented a CTE command in MSSQL. However, the Person pointed out that the deletion approach would be costly, so further optimization was not pursued.
+
+After this, the Person confirmed that further work on this is not needed and asked us to focus on the F2 logic that Person2 is currently working on.
+
+Marking this JIRA as Closed.
+
+Person3 has been a wonderful colleague and a truly kind-hearted person. When I first joined the bank, I was paired with him to get help, and from day one, he was incredibly supportive. His guidance made my initial days much easier, and I’ve always appreciated his willingness to share his knowledge.
+
+One thing I admire about Person3 is his love for books. His recommendations have always been insightful, and I’ve enjoyed seeing his Skype statuses about the latest reads. His passion for learning and sharing wisdom is truly inspiring.
+
+Congratulations on your 5th anniversary, Person3! Wishing you continued success ahead.
